@@ -1,0 +1,63 @@
+.pet-display-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.pet-display-image {
+  max-width: 25%;
+  max-height: 25%;
+  border-radius: 6px;
+}
+
+.pet-display-name {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pet-display-breed {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.pet-display-type {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.pet-display-location {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.pet-display-description {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.pet-card-single { 
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+.pet-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
+.line-divider{
+  border-bottom: 3px solid #afafaf;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}

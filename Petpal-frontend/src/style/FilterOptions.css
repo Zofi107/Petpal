@@ -1,0 +1,9 @@
+.filter-options-container {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.toggle-preferences-button {
+  width: 195px;
+}

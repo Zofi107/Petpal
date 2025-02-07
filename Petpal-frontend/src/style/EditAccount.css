@@ -1,0 +1,37 @@
+.card-edit {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 6px 16px;
+  text-indent: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.head {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.edit-account-input-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.edit-account-input {
+  width: 77%;
+  margin: 0;
+}

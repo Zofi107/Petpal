@@ -1,0 +1,61 @@
+.add-pet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.add-pet-save-cancel-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.add-pet-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  width: 400px;
+}
+
+.add-pet-input-container-inner {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.add-pet-picture-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.add-pet-traits-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5rem;
+  width: 30%;
+  flex-wrap: wrap;
+
+  .personality-badge:hover {
+    cursor: pointer;
+  }
+}
+
+.add-pet-input {
+  width: 400px;
+}
+
+.add-pet-input-label {
+  font-weight: 600;
+}
+
+.form-control {
+  margin: 0;
+}

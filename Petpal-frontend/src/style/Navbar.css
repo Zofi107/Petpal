@@ -1,0 +1,133 @@
+.nav {
+  background-color: #007bff;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  all: unset;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.nav-link-text {
+  all: unset;
+  color: white;
+  font-size: small;
+  font-weight: 400;
+}
+
+.nav-link-text-active {
+  /* text-decoration: underline dashed;
+  text-decoration-color: #054588;
+  text-underline-offset: 6px; */
+  font-weight: 500;
+}
+
+.nav-header {
+  margin-right: 1.5rem;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: large;
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-inner {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-inline: 1rem;
+}
+
+.nav-sign-out-link {
+  margin-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .nav-inner {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-inner {
+    width: 80%;
+    gap: 2rem;
+  }
+
+  .nav-header {
+    margin-right: 2.5rem;
+  }
+
+  .nav-link-text {
+    font-size: medium;
+  }
+
+  .nav-title {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-inner {
+    width: 65%;
+    gap: 2rem;
+  }
+
+  .nav-header {
+    margin-right: 2.5rem;
+  }
+
+  .nav-link-text {
+    font-size: medium;
+  }
+
+  .nav-title {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 1280px) {
+  .nav-inner {
+    width: 55%;
+    gap: 2rem;
+  }
+
+  .nav-header {
+    margin-right: 2.5rem;
+  }
+
+  .nav-link-text {
+    font-size: medium;
+  }
+
+  .nav-title {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 1536px) {
+  .nav-inner {
+    width: 40%;
+    gap: 2rem;
+  }
+
+  .nav-header {
+    margin-right: 2.5rem;
+  }
+
+  .nav-link-text {
+    font-size: medium;
+  }
+
+  .nav-title {
+    font-size: x-large;
+  }
+}

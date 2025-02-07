@@ -1,0 +1,48 @@
+.button-petpal-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.33rem;
+  overflow: visible;
+  padding: 6px 16px;
+  height: 40px;
+  text-align: center;
+  user-select: none;
+  font-weight: 500;
+}
+
+.button-petpal-xl {
+  height: 60px;
+}
+
+.button-petpal-secondary {
+  background-color: #cccccc;
+  color: rgb(48, 48, 48);
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.33rem;
+  overflow: visible;
+  padding: 6px 16px;
+  height: 40px;
+  text-align: center;
+  user-select: none;
+  font-weight: 500;
+}
+
+.button-petpal-primary:disabled {
+  cursor: default;
+  background-color: #6cb3ff;
+}
+
+.button-petpal-primary:active,
+.button-petpal-xl:active,
+.button-petpal-secondary:active {
+  outline: 0;
+}
+
+.button-petpal-primary:focus,
+.button-petpal-xl:focus,
+.button-petpal-secondary:focus {
+  outline: 0;
+}

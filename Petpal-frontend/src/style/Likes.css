@@ -1,0 +1,122 @@
+.likes-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 60%;
+  margin-top: 2rem;
+  margin-inline: auto;
+}
+
+.liked-pet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30%;
+  min-height: 500px;
+  max-height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0.5rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.liked-pet-list::-webkit-scrollbar {
+  display: none;
+}
+
+.liked-pet-details {
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 6px 16px;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.liked-pet-list-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  min-height: 60px;
+  gap: 1rem;
+  border-radius: 5px;
+  background-color: rgba(241, 241, 241, 0.363);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.liked-pet-list-item-selected {
+  background-color: #007bff23;
+}
+
+.liked-pet-list-item-image {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.liked-pet-list-item-name {
+  margin: 0;
+  font-size: large;
+}
+
+.no-pet-selected-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(122, 122, 122);
+}
+
+.no-pet-selected {
+  margin: 1rem;
+}
+
+.about-pet {
+  display: flex;
+}
+
+.current-owner,
+.about-pet {
+  margin-block: 0.5rem;
+  p {
+    margin-block: 0.25rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.personalities-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.about-pet-image-container {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.about-pet-details-container {
+  flex-grow: 1;
+}
+
+.about-pet-image {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  max-height: 60%;
+}
+
+.remove-like-button-container {
+  display: flex;
+  align-items: baseline;
+  text-wrap: nowrap;
+  gap: 1rem;
+}
+
+.remove-like-button {
+  margin-left: auto;
+}
